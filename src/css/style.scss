@@ -12,20 +12,20 @@ $standard-font: Verdana, Geneva, Tahoma, sans-serif;
 $snell: Snell Roundhand, Cursive;
 
 // Backup fonts for shitty pc's
-@font-face {
-  font-family: "Snell Roundhand, Cursive";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../../assets/SnellRoundhand.woff"); /* IE9 Compat Modes */
-  src: local("Snell Roundhand"), local("SnellRoundhand"),
-    url("../../assets/SnellRoundhand.woff") format("embedded-opentype"),
-    ///* IE6-IE8 */ url("../fonts/barlow-condensed-v4-latin/barlow-condensed-v4-latin-300.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../../assets/SnellRoundhand.woff")
-      format("woff"),
-    ///* Modern Browsers */ url("../fonts/barlow-condensed-v4-latin/barlow-condensed-v4-latin-300.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-    //  url("../fonts/barlow-condensed-v4-latin/barlow-condensed-v4-latin-300.svg#BarlowCondensed") format("svg"); /* Legacy iOS */
-}
+// @font-face {
+//   font-family: "Snell Roundhand, Cursive";
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url("../../assets/SnellRoundhand.woff"); /* IE9 Compat Modes */
+//   src: local("Snell Roundhand"), local("SnellRoundhand"),
+//     url("../../assets/SnellRoundhand.woff") format("embedded-opentype"),
+//     ///* IE6-IE8 */ url("../fonts/barlow-condensed-v4-latin/barlow-condensed-v4-latin-300.woff2") format("woff2"),
+//     /* Super Modern Browsers */ url("../../assets/SnellRoundhand.woff")
+//       format("woff"),
+//     ///* Modern Browsers */ url("../fonts/barlow-condensed-v4-latin/barlow-condensed-v4-latin-300.ttf") format("truetype"),
+//     /* Safari, Android, iOS */
+//     //  url("../fonts/barlow-condensed-v4-latin/barlow-condensed-v4-latin-300.svg#BarlowCondensed") format("svg"); /* Legacy iOS */
+// }
 
 * {
 	box-sizing: border-box;
