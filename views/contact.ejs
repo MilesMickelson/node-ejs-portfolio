@@ -1,0 +1,30 @@
+<html lang="en">
+	<head>
+		<title>Contact Miles</title>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" 
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+  <body>
+		<%- include ('header'); -%>
+		<div>Contact Me</div>
+    <div>
+      <form action="/thankyou" method="POST">
+        <label for="firstName">First Name:</label>
+        <input id="firstName" name="firstName" type="text">
+
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" name="lastName" type="text">
+
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="text">
+
+        <input type="submit" />
+      </form>
+    </div>
+		<%- include ('footer'); -%>
+  </body>
+</html>
