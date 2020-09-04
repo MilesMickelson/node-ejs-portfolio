@@ -33,7 +33,7 @@
     "mocha": "^6.2.2",
     "morgan": "^1.9.1",
     "node-mailjet": "^3.3.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "sass": "^1.23.7"
   }
 }
